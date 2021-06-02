@@ -7,9 +7,8 @@
   "homepage": "https://github.com/diegomura/react-pdf#readme",
   "repository": "git@github.com:diegomura/react-pdf.git",
   "main": "lib/shim.js",
-  "module": "lib/shim.js",
   "browser": {
-    "./lib/react-pdf.es.js": "./lib/shim.js"
+    "./lib/shim.js": "./lib/shim.js"
   },
   "dependencies": {
     "@babel/runtime": "^7.6.2",
